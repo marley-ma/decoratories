@@ -1,0 +1,11 @@
+{
+    "roots": [
+        "<rootDir>/src"
+    ],
+    "testPathIgnorePatterns": [
+        "<rootDir>/test/cypress/"
+    ],
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    }
+}

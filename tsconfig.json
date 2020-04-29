@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveConstEnums": true,
+    "noImplicitAny": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist/",
+    "declarationDir": "./dist/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": true,
+    "lib": [ "es2020", "dom" ],
+    "types": [
+      "jest"
+    ]
+  },
+  "include": [ "src" ],
+  "typedocOptions": {
+    "name": "MarleyMA Decoratories",
+    "inputFiles": ["./src/index.ts"],
+    "out": "docs/",
+    "mode": "file",
+    "theme": "minimal",
+    "excludeNotExported": true,
+    "excludeExternals": true,
+    "includeDeclarations": true,
+    "exclude": "**/*+(.spec|.e2e).ts",
+    "hideGenerator": true
+  }
+}
